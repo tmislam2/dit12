@@ -1,0 +1,288 @@
+/*global-css  */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+.btn{
+  width: 200px;
+  padding: 10px ;
+  font-size: 15px;
+  font-weight: 400;
+  color: #FFF;
+  border-radius: 10px;
+
+}
+section{
+  padding: 75px 0px;
+  text-align: center;
+}
+p{
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 300;
+}
+.sub-heading{
+ text-transform: uppercase;
+ font-size: 25px;
+ line-height: 25px;
+ font-weight: 600;
+ margin: 10px 0px;
+}
+.underline{
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  width: 7% !important;
+  margin: 10px auto !important;
+}
+.writing-part{
+  margin-bottom: 50px;
+}
+.box{
+  padding: 0px 25px;
+}
+
+.heading{
+ font-size: 35px;
+ line-height: 35px;
+ font-weight: 600;
+ letter-spacing: 1.2px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+/* Header part  */
+header {
+    background: #795198;
+    text-align: center;
+    color: #FFF;
+}
+ nav {
+    padding: 10px 0;
+
+  }
+ ul {
+    text-align: end;
+    padding: 7px 0px;
+  }
+ li{
+    display: inline-block;
+    padding: 5px 8px;
+    margin: 0px 5px;
+    
+  }
+   li:hover {
+    background-color: rgba(0, 0, 0, 0.266);
+    border-radius: 5px;
+  }
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+  }
+.hero-part {
+    text-align: center;
+    padding: 150px 100px;
+  }
+.hero-part h1{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+.hero-part button {
+  background-color: #cb7d4b;
+  margin-top: 50px ;
+}
+
+  /* Service-section */
+#service {
+   background-color: #17c2a4;
+   color: #FFF;
+   text-align: center;
+  }
+
+  #service .box img {
+    height: 150px;
+  }
+  /* team-section */
+#team{
+   background: #e7f1f8;
+   text-align: center;
+   color: #3c4761;
+  }
+.team-icons {
+  margin-top: 10px;
+}
+  .team-icons i{
+    font-size: 20px;
+    width: 45px;
+    background: #FFF;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0px 5px;
+  }
+   #team .box-part img {
+    width: 200px;
+    
+  } */
+  /*skill section*/
+  #skill{
+    text-align: center;
+    color: #3c4761
+
+  }
+  #portfolio {
+    background-color: #ffdd99;
+    color: #3c4761;
+  }
+  #portfolio .writing-part p {
+    width: 40%;
+    margin: auto;
+  }
+  .portfolio-btn-part {
+    margin-top: 50px;
+  }
+  .portfolio-btn-part a button {
+   background-color: rgba(0, 0, 0, 0.3);
+   padding: 8px 10px;
+   width: 50px;
+   font-size: 11px;
+   border-radius: 5px;
+   margin: 0px 5px;
+  }
+  .portfolio-btn-part a button:hover {
+    background-color: #FFF;
+  }
+  #portfolio .box-part {
+    margin-top: 50px;
+  }
+  #portfolio .btn{
+    background-color: #17c2a4;
+    margin-top: 70px;
+  }
+  #portfolio p {
+    margin: 15px;
+  }
+/* about-section */
+  #About {
+    background-color: #d74680;
+    color: #FFF;
+  }
+  #About .box-part {
+    margin-top: 50px;
+  }
+  .about-writing-part{
+    text-align: left;
+    padding-right:70px ;
+    
+  }
+  .about-img-part img {
+    width: 110px;
+    height: 100px;
+  }
+  .des {
+    color: #ffdd99;
+  }
+  /* contact-section */
+  #contact {
+    background-color: #3c5499;
+    color: #fff;
+  }
+ #contact form{
+  width: 70%;
+  margin: auto;
+ }
+ input, textarea{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #273a71;
+  color: #fff;
+  font-size: 16px;
+ }
+
+input::placeholder, 
+textarea::placeholder{
+  color: #fff;
+  font-size: 16px;
+}
+
+ textarea {
+  margin: 10px 0;
+ }
+ .form-name-part input {
+    width: 98%;
+ }
+  input{
+   margin: 0px 2%;
+  }
+  .form-email-part input {
+    width: 98%;
+    margin-left: 2%;
+  }
+  input[type="submit"]{
+    background-color: #30bae7;
+    margin: auto;
+  } 
+  
+  /* Footer part  */
+  footer {
+    background-color: #2b3563;
+    text-align: center;
+  }
+  footer ul {
+    text-align: center;
+    
+  }
+ 
+  .row {
+    width: 100%;
+    float: left;
+  }
+  [class*="col-"] {
+    float: left;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
